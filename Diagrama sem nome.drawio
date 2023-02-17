@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T13:05:27.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Fc_H6i2RAic3JqDFK0yt" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T13:07:25.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="dA8a979grxeObHsvHFAQ" version="20.8.20" type="github">
   <diagram name="Página-1" id="4mrONQsCcR9hquS0WGVj">
     <mxGraphModel dx="2514" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,21 @@
         </mxCell>
         <mxCell id="QTGlHq5i6ZovdwPENI3X-38" value="Control Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QTGlHq5i6ZovdwPENI3X-44">
           <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTGlHq5i6ZovdwPENI3X-34" value="GRAFANA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QTGlHq5i6ZovdwPENI3X-44">
+          <mxGeometry x="590" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QTGlHq5i6ZovdwPENI3X-33" value="PROMETHEUS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QTGlHq5i6ZovdwPENI3X-44">
+          <mxGeometry x="460" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QTGlHq5i6ZovdwPENI3X-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QTGlHq5i6ZovdwPENI3X-44" source="QTGlHq5i6ZovdwPENI3X-35" target="QTGlHq5i6ZovdwPENI3X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QTGlHq5i6ZovdwPENI3X-35" value="POSTGRESSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QTGlHq5i6ZovdwPENI3X-44">
+          <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QTGlHq5i6ZovdwPENI3X-32" value="NGINX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="QTGlHq5i6ZovdwPENI3X-44">
+          <mxGeometry x="180" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QTGlHq5i6ZovdwPENI3X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.237;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QTGlHq5i6ZovdwPENI3X-2" target="QTGlHq5i6ZovdwPENI3X-4">
           <mxGeometry relative="1" as="geometry" />
@@ -82,23 +97,8 @@
         <mxCell id="QTGlHq5i6ZovdwPENI3X-31" value="ARGOCD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QTGlHq5i6ZovdwPENI3X-32" value="NGINX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QTGlHq5i6ZovdwPENI3X-33" value="PROMETHEUS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QTGlHq5i6ZovdwPENI3X-34" value="GRAFANA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QTGlHq5i6ZovdwPENI3X-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QTGlHq5i6ZovdwPENI3X-35" target="QTGlHq5i6ZovdwPENI3X-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QTGlHq5i6ZovdwPENI3X-35" value="POSTGRESSQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="QTGlHq5i6ZovdwPENI3X-36" value="VOLUME PERSISTENTE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="300" width="130" height="100" as="geometry" />
+          <mxGeometry x="-160" y="480" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QTGlHq5i6ZovdwPENI3X-42" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="440" y="480" width="360" height="360" as="geometry" />
@@ -117,6 +117,14 @@
         </mxCell>
         <mxCell id="QTGlHq5i6ZovdwPENI3X-39" value="Node 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QTGlHq5i6ZovdwPENI3X-43">
           <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTGlHq5i6ZovdwPENI3X-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QTGlHq5i6ZovdwPENI3X-35" target="QTGlHq5i6ZovdwPENI3X-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="370" />
+              <mxPoint x="-95" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
